@@ -140,6 +140,78 @@ body a:hover {
   -ms-grid-column: 3;
   grid-area: user-access;
   font-size: 12px;
+  list-style: none;
+}
+
+.global-header .logo-details-section .account-section .user-access .menu-list {
+  padding-left: 0;
+}
+
+.global-header .logo-details-section .account-section .user-access li {
+  color: #fff;
+  background: white;
+  display: block;
+  float: left;
+  font-size: 14px;
+  position: relative;
+  text-decoration: none;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  text-transform: unset;
+}
+
+.global-header .logo-details-section .account-section .user-access li a {
+  color: #222222;
+}
+
+.global-header .logo-details-section .account-section .user-access li:hover {
+  cursor: pointer;
+}
+
+.global-header .logo-details-section .account-section .user-access li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  border-top: 5px solid #EE0000;
+}
+
+.global-header .logo-details-section .account-section .user-access li:hover > ul li:hover {
+  background: #ECECEC;
+}
+
+.global-header .logo-details-section .account-section .user-access li:hover > ul li:hover a {
+  color: #EE0000;
+}
+
+.global-header .logo-details-section .account-section .user-access li:hover .menu-list-items {
+  color: #EE0000;
+}
+
+.global-header .logo-details-section .account-section .user-access li ul {
+  visibility: hidden;
+  opacity: 0;
+  min-width: 12rem;
+  position: absolute;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+.global-header .logo-details-section .account-section .user-access li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+.global-header .logo-details-section .account-section .user-access li ul li {
+  clear: both;
+  width: 100%;
+}
+
+.global-header .logo-details-section .account-section .user-access li ul li a {
+  font-weight: bold;
 }
 
 .global-header .nav-menu {

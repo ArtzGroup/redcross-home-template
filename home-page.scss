@@ -106,6 +106,78 @@ body {
             .user-access {
                 grid-area: user-access;
                 font-size: $font-base-size;
+                list-style: none;
+
+                .menu-list{
+                    padding-left: 0;
+                }
+
+                li {
+                    color: #fff;
+                    background: rgb(255, 255, 255);
+                    display: block;
+                    float: left;
+                    font-size: 14px;
+                    position: relative;
+                    text-decoration: none;
+                    transition-duration: 0.5s;
+                    text-transform: unset;
+
+                    a {
+                        color: $default-text-color;
+                    }
+
+                    &:hover {
+                        cursor: pointer;
+
+                        >ul {
+                            visibility: visible;
+                            opacity: 1;
+                            display: block;
+                            border-top: 5px solid #EE0000;
+
+                            li {
+                                &:hover {
+                                    background: #ECECEC;
+
+                                    a {
+                                        color: #EE0000;
+                                    }
+                                }
+                            }
+                        }
+
+                        .menu-list-items {
+                            color: #EE0000;
+                        }
+                    }
+
+                    ul {
+                        visibility: hidden;
+                        opacity: 0;
+                        min-width: 12rem;
+                        position: absolute;
+                        transition: all 0.5s ease;
+                        margin-top: 1rem;
+                        left: 0;
+                        display: none;
+
+                        &:hover {
+                            visibility: visible;
+                            opacity: 1;
+                            display: block;
+                        }
+
+                        li {
+                            clear: both;
+                            width: 100%;
+
+                            a {
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -244,6 +316,7 @@ body {
         .facebook,
         .instagram {
             cursor: pointer;
+
             .outer {
                 fill: white;
             }
@@ -267,6 +340,7 @@ body {
 
         .facebook {
             margin: 0 30px;
+
             &:hover {
                 .outer {
                     fill: #4267B2;
