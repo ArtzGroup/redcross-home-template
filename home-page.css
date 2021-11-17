@@ -222,10 +222,11 @@ body a:hover {
       grid-template-areas: ". menu-list .";
 }
 
-.global-header .menu-list {
+.global-header .nav-menu .menu-list {
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: menu-list;
+  border-bottom: 0.5px solid #000000;
 }
 
 .global-header ul {
@@ -302,8 +303,23 @@ body a:hover {
 
 .main-content {
   min-height: 60vh;
-  background: #C4C4C4;
   margin: 26px 13.333vw 13px 13.75vw;
+}
+
+.main-content .breadcrumbs .pages {
+  color: #EE0000;
+}
+
+.main-content .breadcrumbs .pages:hover {
+  text-decoration: underline;
+}
+
+.main-content .main-content-placeholder {
+  background: #C4C4C4;
+  height: 100%;
+  width: 100%;
+  min-height: 58vh;
+  margin-top: 10px;
 }
 
 .global-footer {
