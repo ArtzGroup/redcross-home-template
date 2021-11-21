@@ -369,49 +369,49 @@ body a:hover {
   margin: 48px 0 38px 0;
 }
 
-.global-footer .icons .twitter,
-.global-footer .icons .facebook,
-.global-footer .icons .instagram {
+.global-footer .icons .icon-link .twitter,
+.global-footer .icons .icon-link .facebook,
+.global-footer .icons .icon-link .instagram {
   cursor: pointer;
 }
 
-.global-footer .icons .twitter .outer,
-.global-footer .icons .facebook .outer,
-.global-footer .icons .instagram .outer {
+.global-footer .icons .icon-link .twitter .outer,
+.global-footer .icons .icon-link .facebook .outer,
+.global-footer .icons .icon-link .instagram .outer {
   fill: white;
 }
 
-.global-footer .icons .twitter .inner,
-.global-footer .icons .facebook .inner,
-.global-footer .icons .instagram .inner {
+.global-footer .icons .icon-link .twitter .inner,
+.global-footer .icons .icon-link .facebook .inner,
+.global-footer .icons .icon-link .instagram .inner {
   fill: #333333;
 }
 
-.global-footer .icons .twitter:hover .outer {
+.global-footer .icons .icon-link .twitter:hover .outer {
   fill: #1DA1F2;
 }
 
-.global-footer .icons .twitter:hover .inner {
+.global-footer .icons .icon-link .twitter:hover .inner {
   fill: white;
 }
 
-.global-footer .icons .facebook {
+.global-footer .icons .icon-link .facebook {
   margin: 0 30px;
 }
 
-.global-footer .icons .facebook:hover .outer {
+.global-footer .icons .icon-link .facebook:hover .outer {
   fill: #4267B2;
 }
 
-.global-footer .icons .facebook:hover .inner {
+.global-footer .icons .icon-link .facebook:hover .inner {
   fill: white;
 }
 
-.global-footer .icons .instagram:hover .outer {
+.global-footer .icons .icon-link .instagram:hover .outer {
   fill: #FCAF45;
 }
 
-.global-footer .icons .instagram:hover .inner {
+.global-footer .icons .icon-link .instagram:hover .inner {
   fill: white;
 }
 

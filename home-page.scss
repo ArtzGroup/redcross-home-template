@@ -274,11 +274,11 @@ body {
     min-height: 60vh;
     margin: 26px 13.333vw 13px 13.75vw;
 
-    .breadcrumbs{
+    .breadcrumbs {
         .pages {
             color: #EE0000;
 
-            &:hover{
+            &:hover {
                 text-decoration: underline;
             }
         }
@@ -330,54 +330,57 @@ body {
     .icons {
         margin: 48px 0 38px 0;
 
-        .twitter,
-        .facebook,
-        .instagram {
-            cursor: pointer;
+        .icon-link {
 
-            .outer {
-                fill: white;
-            }
+            .twitter,
+            .facebook,
+            .instagram {
+                cursor: pointer;
 
-            .inner {
-                fill: #333333;
-            }
-        }
-
-        .twitter {
-            &:hover {
                 .outer {
-                    fill: #1DA1F2;
+                    fill: white;
                 }
 
                 .inner {
-                    fill: white;
+                    fill: #333333;
                 }
             }
-        }
 
-        .facebook {
-            margin: 0 30px;
+            .twitter {
+                &:hover {
+                    .outer {
+                        fill: #1DA1F2;
+                    }
 
-            &:hover {
-                .outer {
-                    fill: #4267B2;
-                }
-
-                .inner {
-                    fill: white;
+                    .inner {
+                        fill: white;
+                    }
                 }
             }
-        }
 
-        .instagram {
-            &:hover {
-                .outer {
-                    fill: #FCAF45;
+            .facebook {
+                margin: 0 30px;
+
+                &:hover {
+                    .outer {
+                        fill: #4267B2;
+                    }
+
+                    .inner {
+                        fill: white;
+                    }
                 }
+            }
 
-                .inner {
-                    fill: white;
+            .instagram {
+                &:hover {
+                    .outer {
+                        fill: #FCAF45;
+                    }
+
+                    .inner {
+                        fill: white;
+                    }
                 }
             }
         }
